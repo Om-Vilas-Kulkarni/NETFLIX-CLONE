@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+header img {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 10rem;
+}
+
+header button {
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: fit-content;
+    border: none;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    color: white;
+    background-color: red;
+    font-size: 1.1rem;
+}
+header button a{
+    color:white;
+    text-decoration: none;
+}
+header button:hover {
+    background-color: rgb(184, 19, 19);
+}
+#button1{
+    border: 1px solid white;
+    margin-right:10px;
+    background: transparent;
+}
+#button1:hover{
+    background-color: rgb(166, 152, 152);
+}
+
+#home{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(27, 10, 124, 0.7), rgba(0, 0, 0, .7)), url('https://external-preview.redd.it/BN_3Aeth1UqlGLm4JGiGODg8K3RVaID-yUQ6N2ZOXSg.jpg?auto=webp&s=1a8e79240a9e7e600a6d57127346758688f8d414') no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (max-width:522px) {
+    header img {
+        width: 6.6rem;
+    }
+}
+
+#sub-home {
+    margin-top: 140px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    margin-right:10px;
+}
+
+#sub-home h1 {
+    font-family: 'Secular One', sans-serif;
+    margin-left: 40px;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#sub-home h3 {
+    margin-top: 10px;
+    padding: 0;
+    font-family: 'Secular One', sans-serif;
+    margin-left: 40px;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+#sub-home p {
+    margin-top: 10px;
+    font-family: 'Secular One', sans-serif;
+    padding: 0;
+    margin-left: 40px;
+    font-size: 1rem;
+}
+
+@media (max-width:427px) {
+    #sub-home h1 {
+        font-size: 3rem;
+    }
+
+    #sub-home h3 {
+        font-size: 1.2rem;
+    }
+}
+
+.subscription {
+    margin-left: 40px;
+    margin-right:10px;
+}
+
+#semail {
+    width: 260px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: white;
+    background: transparent;
+    opacity: 0.5;
+    background-color: black;
+    border: 0.5px solid white;
+    margin-bottom:40px;
+}
+
+#sbtn {
+    border-radius: 5px;
+    border: 0.5px solid black;
+    color: white;
+    font-size: 1.5rem;
+    background-color: red;
+    padding: 10px;
+    margin-bottom:40px;
+}
+
+#sbtn:hover {
+    background-color: rgb(184, 19, 19);
+}
+
+#movies{
+    min-height: 100vh;
+    background: linear-gradient(rgba(18, 17, 17, 0.7), rgba(18, 17, 17, 0.7)), url('https://th.bing.com/th/id/R.97d4372733f48f7d49f386c72a35f058?rik=Hq3Mulgp1hNeoQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2f7%2f4%2f1075874-full-size-netflix-wallpapers-1920x1080-hd.jpg&ehk=mWR6jyIj9%2bWPNP9te66w5XaKjfcsy0qNqupnmQ3vyR0%3d&risl=&pid=ImgRaw&r=0') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#moviesheading{
+    color:white;
+    padding-top:140px;
+    padding-left:40px;
+}
+span{
+    color:red;
+}
+#moviesheading h1{
+    font-size:3rem;
+    font-family: 'Secular One', sans-serif;
+}
+#moviesheading p{
+    font-size:1.5rem;
+}
+.boxes{
+    margin-left:40px;
+    margin-right:40px;
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 25px;
+}
+
+.box{
+    border-radius:15px;
+    border:none;
+    margin:65px auto;
+    padding:10px;
+    background: linear-gradient(rgb(91, 23, 75),rgb(33, 2, 26));
+}
+
+#box1 img{
+    width:140px;
+}
+#box2 img{
+    width:130px;
+}
+#box3 img{
+    width:136px;
+}
+#box4 img{
+    width:127px;
+}
+.bigbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#FAQ{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(27, 10, 124, 0.7), rgba(0, 0, 0, .7)), url('https://external-preview.redd.it/BN_3Aeth1UqlGLm4JGiGODg8K3RVaID-yUQ6N2ZOXSg.jpg?auto=webp&s=1a8e79240a9e7e600a6d57127346758688f8d414') no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#FAQ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0;
+    margin:0;
+}
+
+.corrections{
+    margin-left:10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    padding-top:80px;
+    color:white;
+}
+.corrections h1{
+    font-size:3rem;
+    
+}
+.corrections p{
+    font-size:1.2rem;
+}
+.subscription2{
+    text-align: center;
+}
+.subscription2 div{
+    margin:20px;
+}
+.subscription2 input{
+    margin:5px;
+}
+.s2{
+    width: fit-content;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: white;
+    background: transparent;
+    opacity: 0.7;
+    background-color: rgb(19, 14, 14);
+    border: 0.5px solid white;
+}
+#sname{
+    width:fit-content;
+}
+#ssurname{
+    width:fit-content;
+}
+#s2email{
+    width:fit-content;
+}
+#textarea{
+    width:100%;
+    resize: none;
+}
+#submitbtn{
+    background-color: red;
+    color:white;
+    outline:none;
+    border:none;
+    border-radius:10px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+@media (max-width:922px){
+    .boxes{
+        grid-template-columns: repeat(2,auto);
+    }
+    #sub-home h1{
+        font-size: 3.2rem;
+    }
+}
+@media(max-width:610px){
+    #semail,#sbtn{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:524px){
+    #semail,#sbtn{
+        font-size: 1rem;
+    }
+}
+@media(max-width:486px){
+    .boxes{
+        grid-template-columns: repeat(1,auto);
+    }
+    .box4{
+        grid-gap:5px;
+        margin-bottom:25px;
+    }
+}
+@media(max-width:395px){
+    header button{
+        font-size: 0.8rem;
+    }
+}
